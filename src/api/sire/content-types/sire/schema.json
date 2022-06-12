@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sires",
+  "info": {
+    "singularName": "sire",
+    "pluralName": "sires",
+    "displayName": "Sire"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pictures": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "dateOfBirth": {
+      "type": "date"
+    },
+    "name": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
