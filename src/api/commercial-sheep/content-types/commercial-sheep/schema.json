@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sires",
+  "collectionName": "commercial_sheeps",
   "info": {
-    "singularName": "sire",
-    "pluralName": "sires",
-    "displayName": "Sire"
+    "singularName": "commercial-sheep",
+    "pluralName": "commercial-sheeps",
+    "displayName": "Commercial Sheep"
   },
   "options": {
     "draftAndPublish": true

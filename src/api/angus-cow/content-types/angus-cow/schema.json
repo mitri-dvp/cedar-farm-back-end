@@ -1,10 +1,11 @@
 {
   "kind": "collectionType",
-  "collectionName": "sires",
+  "collectionName": "angus_cows",
   "info": {
-    "singularName": "sire",
-    "pluralName": "sires",
-    "displayName": "Sire"
+    "singularName": "angus-cow",
+    "pluralName": "angus-cows",
+    "displayName": "Angus Cow",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,9 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "pictures": {
-      "allowedTypes": ["images", "videos"],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images", "videos"]
     },
     "name": {
       "type": "string"

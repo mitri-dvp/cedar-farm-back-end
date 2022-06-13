@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sires",
+  "collectionName": "ewes",
   "info": {
-    "singularName": "sire",
-    "pluralName": "sires",
-    "displayName": "Sire"
+    "singularName": "ewe",
+    "pluralName": "ewes",
+    "displayName": "Ewe"
   },
   "options": {
     "draftAndPublish": true

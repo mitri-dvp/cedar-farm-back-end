@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "sires",
+  "collectionName": "rams",
   "info": {
-    "singularName": "sire",
-    "pluralName": "sires",
-    "displayName": "Sire"
+    "singularName": "ram",
+    "pluralName": "rams",
+    "displayName": "Ram"
   },
   "options": {
     "draftAndPublish": true
