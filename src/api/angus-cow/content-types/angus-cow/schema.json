@@ -18,8 +18,15 @@
       "required": false,
       "allowedTypes": ["images", "videos"]
     },
+    "uid": {
+      "type": "uid"
+    },
     "name": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
     "price": {
       "type": "integer"

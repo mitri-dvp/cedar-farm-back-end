@@ -16,8 +16,15 @@
       "type": "media",
       "multiple": true
     },
+    "uid": {
+      "type": "uid"
+    },
     "name": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
     "price": {
       "type": "integer"

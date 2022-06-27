@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sire",
     "pluralName": "sires",
-    "displayName": "Sire"
+    "displayName": "Sire",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,12 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "pictures": {
-      "allowedTypes": ["images", "videos"],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images", "videos"]
+    },
+    "uid": {
+      "type": "uid"
     },
     "name": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
     "price": {
       "type": "integer"
