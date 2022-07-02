@@ -116,6 +116,19 @@ module.exports = `<div style="background-color: #e1e1e1; margin: 0; padding: 0">
                       <p
                         style="
                           margin: 0;
+                          margin-bottom: 16px;
+                          font-size: 15px;
+                          letter-spacing: normal;
+                        "
+                      >
+                        <span style="font-size: 15px">
+                          <b>Phone:</b>
+                          <span>__phone__</span>
+                        </span>
+                      </p>
+                      <p
+                        style="
+                          margin: 0;
                           font-size: 15px;
                           letter-spacing: normal;
                         "
